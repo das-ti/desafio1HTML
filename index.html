@@ -1,0 +1,193 @@
+<html>
+
+<head>
+    <title>HTML</title>
+</head>
+
+<body>
+    <h1 id="inicio">Meu Primeiro Site</h1>
+    <small>Assine nossa NewsLetter<a href="#news">[newsletter]</a></small>
+    <hr />
+    <h2 id="indice">Siga o índice do projeto:</h2>
+    <small>Alguns passos para criar sua primeira página da internet.</small>
+
+    <ol>
+        <li><a href="#vscode">Introdução ao VS Code</a>;</li>
+        <li><a href="#estrutura">Entenda a Estrutura do HTML</a>;</li>
+        <li><a href="#tags">Tags que vamos usar</a>;</li>
+        <li><a href="#final">Conclusão do projeto</a>.</li>
+    </ol>
+
+    <h3 id="vscode">Introdução ao Visual Studio Code</h3>
+    <small><a href="#inicio">[início]</a> | <a href="#indice"> [índice]</a></small>
+    <p>Baixe gratuitamente o <a href="https://code.visualstudio.com/Download" title="clique para baixar">VS
+            Code</a>. Ou através do site da <a href="https://visualstudio.microsoft.com/pt-br/downloads/"
+            title="clique para baixar">Microsoft.com</a>.</p>
+    <p>Após fazer o download, confira todos os passos da instalação e abra o VS Code seguindo esta introdução até
+        concluir o
+        projeto.</p>
+    <ul>
+        <li>Na tela de boas-vindas, clique em "<i>novo arquivo</i>" e selecione "<strong>arquivo de texto</strong>";
+        </li>
+        <li>Com a nova aba aberta, utilize as "tags" de acordo com as necessidades de estruturação do documento em HTML;
+        </li>
+        <li>Salve o projeto a medida que inserir as tags e conteúdos do site, pressione as teclas [CTRL]+[S], que
+            formam o atalho para salvar imediatamente o HTML.<i>Fazendo isso pela primeira vez, abrirá uma janela do
+                explorador de arquivos</i>;</li>
+        <li>Escolha uma pasta, nomeie o arquivo como "<i>index</i>", selecione o tipo <strong>HTML</strong> e clique em
+            salvar;</li>
+        <li>Pressione [F5] para abrir o projeto no navegador, assim poderá atualizar pressionando [CTRL]+[S];</li>
+        <li>A cada passo do projeto é possível conferir os resultados obitdos e possíveis correções a fazer.</li>
+    </ul>
+
+    <h3 id="estrutura">Entenda a Estrutura do HTML</h3>
+    <small><a href="#inicio">[início]</a> | <a href="#vscode"> [intro vs code]</a></small>
+    <p>Primeira tag inserida é <strong>&lt;html&gt;</strong>, que define o tipo do documento que utilizaremos e
+        que será interpretado pelo navegador para exibir todo conteúdo;</p>
+    <p>Segunda tag ficará entre abertura e fechamento de &lt;html&gt;, será &lt;head&gt; que recebe &lt;title&gt;
+    </p>
+    <p>E por fim, a tag &lt;body&gt;, entre fechamento &lt;/head&gt; e &lt;/html&gt;</p>
+    <p>O esquema abaixo explica melhor a ordenação de cada tag na estrutura base:</p>
+    <ol>
+        <li><strong>&lt;html&gt;</strong></li>
+        <li><strong>&lt;head&gt;</strong></li>
+        <li><strong>&lt;title&gt;</strong></li>
+        <ul>
+            <li>Título da página que aparecerá na aba do navegador</li>
+        </ul>
+        <li><strong>&lt;/title&gt;</strong></li>
+        <li><strong>&lt;/head&gt;</strong></li>
+        <li><strong>&lt;body&gt;</strong></li>
+        <ul>
+            <li>Tags aplicadas ao conteúdo que será interpretado e ficará visível no navegador</li>
+        </ul>
+        <li><strong>&lt;/body&gt;</strong></li>
+        <li><strong>&lt;/html&gt;</strong></li>
+    </ol>
+
+    <h3 id="tags">As tags que vamos usar</h3>
+    <small><a href="#inicio">[início]</a> | <a href="#estrutura"> [estrutura html]</a></small>
+
+    <p>Sugestão de uso e breve definição de cada tag.</p>
+    <ul>
+        <li>
+            &lt;html&gt; &lt;/html&gt;: Container que receberá todo conteúdo visível e não visível do site;
+        </li>
+        <li>
+            &lt;head&gt; &lt;/head&gt;: É a cabeça da estrutura, onde serão acrescentadas outras instruções, como a
+            tag
+            seguir;
+        </li>
+        <li>
+            &lt;title&gt; &lt;/title&gt;: intitular a página, sendo o título exibida na parte superior na
+            aba do navegador;
+        </li>
+        <li>
+            &lt;body&gt; &lt;/body&gt;: está é o corpo da página, recebe todos os elementos que serão interpretados
+            pelo
+            navegador para exibir as informações no site;
+        </li>
+        <li>
+            &lt;h1&gt; &lt;/h1&gt; até &lt;h6&gt; &lt;/h6&gt;: Título - Sua ordem de importância inicia por "h1" que
+            é
+            título principal e utilizado uma vez. Sendo as demais para subtítulos.
+        </li>
+        <li>
+            &lt;p&gt; &lt;/p&gt;: Parágrafo. Usada para descrever textos em geral. Para cada linha do texto, deve
+            ser
+            utilizada novamente;
+        </li>
+        <li>
+            &lt;mark&gt; &lt;/mark&gt;: Marcador de texto. Marca <mark>uma</mark> ou a <mark>sequência de palavras
+                envolvidas</mark>.;
+        </li>
+        <li>
+            &lt;strong&gt; &lt;/strong&gt;: Negrito. Reforça a <strong>expessura</strong> da font;
+        </li>
+        <li>
+            &lt;ol&gt; &lt;/ol&gt;: Lista ordenada. Esta tag determina que cada item da lista será ordenado por
+            sequência
+            numérica;
+        </li>
+        <li>
+            &lt;ul&gt; &lt;/ul&gt;: Lista não ordenada. Os itens da lista são sinalizados com um "bullets" no seu
+            início.
+            Utilizado para qual não tem uma ordem para os itens;
+        </li>
+        <li>
+            &lt;li&gt; &lt;/li&gt;: Item de lista. Serve para descrever os itens de uma lista;
+        </li>
+        <li>
+            &lt;a href=""&gt;&lt;/a&gt;: Âncoragem. Esta tag possui o atributo "href=" para redirecionamento para
+            outra
+            página dentro e fora do site, ou algum trecho identificado da página.
+            <a href="#tags" title="vai procurar o id citado no href">tags que estamos usando.</a> <a href="google.com"
+                target="_blank" title="clique para ser direcionado">Google.com</a>
+        </li>
+        <li>
+            &lt;hr&gt;: Linha horizontal. Esta não possuí a tag de fechamento. Normalmente usada para separa um
+            trecho
+            específico de texto;
+            <hr>
+        </li>
+        <li>
+            &lt;sub&gt; &lt;/sub&gt;: Subscrito. Normalmente usado para fórmulas quimicas. O texto fica no meio da
+            liha
+            do
+            parágrafo. Exemplo: "H<sub>2</sub>O".
+        </li>
+        <li>
+            &lt;sup&gt; &lt;/sup&gt;: Sobrescrito. Esta já é usada em fórmulas matemáticas, O texto fica acima da
+            linha
+            do
+            texto do mesmo parágrafo. Por exemplo: "2<sup>3</sup>= 8";
+        </li>
+        <li>
+            &lt;blockquote&gt; &lt;/blockquote&gt;: Citação. Usada para quando temos como fonte outro autor
+            <blockquote>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero labore explicabo cupiditate
+                aperiam excepturi. Accusamus, minus saepe? Deserunt esse necessitatibus quam, sapiente sint, tempora
+                nemo est natus, earum nobis veritatis?</blockquote>
+        </li>
+        <li>
+            &lt;font&gt; &lt;/font&gt;: Estilizar a font. Não é compativel com HTML5. Era utilizada no HTML4 para
+            especificar o tipo, tamanho e a cor do texto;
+        </li>
+        <li>
+            &lt;del&gt; &lt;/del&gt;: Indica troca de informação. Mostra o trecho tachado. A substituição é feita
+            usando
+            a
+            tag &lt;ins&gt;&lt;/ins&gt; para mostrar uma correção.
+            Por Exemplo: "O Geraldo, é <del>funcionário</del> <ins>ex-funcionário</ins> da empresa".
+        </li>
+        <li>
+            &lt;abbr&gt; &lt;/abbr&gt;: Abreviatura. Usado para exibir o significado de uma sigla ou acrônimo numa
+            caixa
+            de
+            texto flutuante que aparece quando apontada pelo ponteiro do mouse.
+            Exemplo: <abbr title="HyperText Markup Language">HTML</abbr>;
+        </li>
+    </ul>
+    <h3 id="final">Conclusão</h3>
+    <small><a href="#inicio">[início]</a> | <a href="#vscode"> [intro vs code]</a> | <a href="#estrutura"> [estrutura
+            html]</a> | <a href="#tags"> [tags usadas]</a></small>
+
+    <p>Agora você pode desenvolver seu próprio site. Invista tempo em pesquisa, pois o conteúdo deste blog é para
+        iniciantes.</p>
+    <p>Sugestões para aprender mais sobre HTML e outras tecnologias acesse uma das plataformas de ensino pago ou
+        gratuíto:
+    <ul>
+        <li><a href="dio.me">DIO.me</a></li>
+        <li><a href="https://www.w3schools.com">W3Schools</a></li>
+        <li><a href="https://developer.mozilla.org/pt-BR">MDN</a></li>
+    </ul>
+    </p>
+    <h2>Assine nossa Newsletter</h2>
+
+    <p>Preencha seu e-mail abaixo para receber as novidades do nosso bloq.</p>
+        <input type="text" id="nome" placeholder="seu primeiro nome">
+        <input type="email" id="email" placeholder="*e-mail">
+        <input type="submit" value="Inscrever">
+    <p>Site desenvolvido por:<abbr title="Douglas | Técnico em Informática">DAS.Ti</abbr></p>
+</body>
+
+</html>
